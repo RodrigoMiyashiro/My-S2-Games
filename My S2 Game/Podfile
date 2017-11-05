@@ -9,6 +9,7 @@ target 'My S2 Game' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'UIScrollView-InfiniteScroll'
+  pod 'SDWebImage'
 
   target 'My S2 GameTests' do
     inherit! :search_paths
