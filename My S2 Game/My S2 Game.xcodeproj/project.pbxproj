@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4D3ECC68CB07FCD9C50A193E /* Pods_My_S2_GameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E227B22F94172BE5326D4C /* Pods_My_S2_GameTests.framework */; };
 		5B07F62F1FAF74EC00C5DABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07F62E1FAF74EC00C5DABC /* AppDelegate.swift */; };
-		5B07F6311FAF74EC00C5DABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07F6301FAF74EC00C5DABC /* ViewController.swift */; };
 		5B07F6341FAF74EC00C5DABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B07F6321FAF74EC00C5DABC /* Main.storyboard */; };
 		5B07F6371FAF74EC00C5DABC /* My_S2_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B07F6351FAF74EC00C5DABC /* My_S2_Game.xcdatamodeld */; };
 		5B07F6391FAF74EC00C5DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B07F6381FAF74EC00C5DABC /* Assets.xcassets */; };
 		5B07F63C1FAF74EC00C5DABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B07F63A1FAF74EC00C5DABC /* LaunchScreen.storyboard */; };
 		5B07F6471FAF74EC00C5DABC /* My_S2_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07F6461FAF74EC00C5DABC /* My_S2_GameTests.swift */; };
 		5B07F6521FAF74EC00C5DABC /* My_S2_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07F6511FAF74EC00C5DABC /* My_S2_GameUITests.swift */; };
+		5BAE6C091FAF85280039685D /* ListGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE6C081FAF85280039685D /* ListGamesViewController.swift */; };
+		5BAE6C0B1FAF85350039685D /* ListGamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE6C0A1FAF85350039685D /* ListGamesCollectionViewCell.swift */; };
+		5BAE6C0D1FAF85420039685D /* DetailGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE6C0C1FAF85420039685D /* DetailGameViewController.swift */; };
 		7FF34BA957F02E9E0EE8E19C /* Pods_My_S2_GameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F5EAE8A8606BDCEA09D4DE /* Pods_My_S2_GameUITests.framework */; };
 		CDD0FC316055483ED9AE9F7D /* Pods_My_S2_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87618D899B6A33B4B8B70BD9 /* Pods_My_S2_Game.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +45,6 @@
 		55AC52571704FAE623A9D932 /* Pods-My S2 GameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My S2 GameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My S2 GameUITests/Pods-My S2 GameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B07F62B1FAF74EC00C5DABC /* My S2 Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My S2 Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B07F62E1FAF74EC00C5DABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B07F6301FAF74EC00C5DABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B07F6331FAF74EC00C5DABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B07F6361FAF74EC00C5DABC /* My_S2_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_S2_Game.xcdatamodel; sourceTree = "<group>"; };
 		5B07F6381FAF74EC00C5DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +56,9 @@
 		5B07F64D1FAF74EC00C5DABC /* My S2 GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My S2 GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B07F6511FAF74EC00C5DABC /* My_S2_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_S2_GameUITests.swift; sourceTree = "<group>"; };
 		5B07F6531FAF74EC00C5DABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAE6C081FAF85280039685D /* ListGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGamesViewController.swift; sourceTree = "<group>"; };
+		5BAE6C0A1FAF85350039685D /* ListGamesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGamesCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BAE6C0C1FAF85420039685D /* DetailGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGameViewController.swift; sourceTree = "<group>"; };
 		80A31B6C30BCB62A310132E6 /* Pods-My S2 GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My S2 GameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My S2 GameTests/Pods-My S2 GameTests.release.xcconfig"; sourceTree = "<group>"; };
 		87618D899B6A33B4B8B70BD9 /* Pods_My_S2_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_S2_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5EAE8A8606BDCEA09D4DE /* Pods_My_S2_GameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_S2_GameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,7 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				5B07F62E1FAF74EC00C5DABC /* AppDelegate.swift */,
-				5B07F6301FAF74EC00C5DABC /* ViewController.swift */,
+				5BAE6C071FAF850B0039685D /* New Group3 */,
+				5BAE6C061FAF85040039685D /* New Group2 */,
+				5BAE6C051FAF85010039685D /* List Games */,
+				5BAE6C041FAF84FC0039685D /* Detail Game */,
 				5B07F6321FAF74EC00C5DABC /* Main.storyboard */,
 				5B07F6381FAF74EC00C5DABC /* Assets.xcassets */,
 				5B07F63A1FAF74EC00C5DABC /* LaunchScreen.storyboard */,
@@ -156,6 +163,37 @@
 				5B07F6531FAF74EC00C5DABC /* Info.plist */,
 			);
 			path = "My S2 GameUITests";
+			sourceTree = "<group>";
+		};
+		5BAE6C041FAF84FC0039685D /* Detail Game */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE6C0C1FAF85420039685D /* DetailGameViewController.swift */,
+			);
+			name = "Detail Game";
+			sourceTree = "<group>";
+		};
+		5BAE6C051FAF85010039685D /* List Games */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE6C081FAF85280039685D /* ListGamesViewController.swift */,
+				5BAE6C0A1FAF85350039685D /* ListGamesCollectionViewCell.swift */,
+			);
+			name = "List Games";
+			sourceTree = "<group>";
+		};
+		5BAE6C061FAF85040039685D /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group2";
+			sourceTree = "<group>";
+		};
+		5BAE6C071FAF850B0039685D /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group3";
 			sourceTree = "<group>";
 		};
 		FE52167C0C2771E8A762CC91 /* Frameworks */ = {
@@ -468,9 +506,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAE6C091FAF85280039685D /* ListGamesViewController.swift in Sources */,
 				5B07F6371FAF74EC00C5DABC /* My_S2_Game.xcdatamodeld in Sources */,
-				5B07F6311FAF74EC00C5DABC /* ViewController.swift in Sources */,
+				5BAE6C0B1FAF85350039685D /* ListGamesCollectionViewCell.swift in Sources */,
 				5B07F62F1FAF74EC00C5DABC /* AppDelegate.swift in Sources */,
+				5BAE6C0D1FAF85420039685D /* DetailGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
